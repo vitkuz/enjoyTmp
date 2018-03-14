@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+}
+
+.left {
+    padding: 1rem;
+    width:70%;
+}
+
+.action {
+    margin-right:1rem;
+}
+
+.right  {
+    background: #f3f3f3;
+    padding: 1rem;
+}
+
+.group,
+.delivery,
+.address {
+    border:1px solid #000;
+    padding: 1rem;
+}
+
+input {
+    margin-bottom:1rem;
+}
+h3 {
+    margin-top: 0;
+}
+.form-action {
+    background: #f3f3f3;
+    margin-top:1rem;
+    padding: 1rem;
+}

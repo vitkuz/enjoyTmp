@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <a href="#" class="action">
+        Get current address
+    </a>
+    <a href="#" class="action">
+        Check eligibility
+    </a>
+    <a href="#" class="action">
+        Get slots
+    </a>
+    <a href="#" class="action">
+        Refresh available delivery types
+    </a>
+</div>
+
+<div class="container">
+    <div class="left">
+        <form action="">
+
+            <div class="address">
+                <h3>Available addresses</h3>
+                <div id="address-1">
+                    <label for="">Billing address</label>
+                    <input type="text" name="address" id="input-address-1" value="test BILLING address 1">
+                </div>
+
+                <div id="address-2">
+                    <label for="">Delivery address</label>
+                    <input type="text" name="address" id="input-address-2" value="test DELIVERY address 2">
+                </div>
+
+                <div id="address-3">
+                    <label for="">Manual address</label>
+                    <input type="text" name="address" id="input-address-3" value="test MANUAL address 3">
+                </div>
+            </div>
+            <hr>
+            <div class="delivery">
+                <h3>Choose delivery address</h3>
+                <div class="group">
+                    <div class="choose-address">
+                        <div>
+                            <lable>
+                                My delivery address
+                                <input type="radio" name="delivery-address" id="select-delivery-address">
+                            </lable>
+                        </div>
+                        <div>
+                            <label for="">
+                                My another address
+                                <input type="radio" name="delivery-address" id="select-another-address">
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="choose-delivery-type">
+                        <h3>Choose delivery type</h3>
+                        <div class="delivery-type">
+                            <label for="select-express-delivery-method">
+                                Express delivery
+                                <input type="radio" name="delivery-type" class="express-delivery" id="select-express-delivery-method">
+                            </label>
+
+                            <div id="ps-checker">
+                                insert ps checker here
+                            </div>
+
+                            <div id="enjoy-calendar">
+                                insert enjoy here
+                            </div>
+
+                        </div>
+
+                        <div class="delivery-type">
+                            <label for="select-standard-delivery-method">
+                                Standard delivery
+                                <input type="radio" name="delivery-type" class="standard-delivery" id="select-standard-delivery-method">
+                            </label>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <hr>
+                <div class="choose-address">
+                    <lable>
+                        Store
+                        <input type="radio" name="delivery-address" class="store" id="select-store-address">
+                    </lable>
+                </div>
+
+            </div>
+
+            <div class="form-action">
+                <button>Order</button>
+            </div>
+
+
+        </form>
+    </div>
+    <div class="right">
+        <div>
+            <h4>ps checker messages</h4>
+            <div id="ps-checker-message-1">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </div>
+            <div id="ps-checker-message-2">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </div>
+            <div id="ps-checker-message-3">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </div>
+        </div>
+
+        <div>
+            <h4>enjoy calendar messages</h4>
+            <div id="enjoy-message-1">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </div>
+            <div id="enjoy-message-2">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </div>
+            <div id="enjoy-message-3">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </div>
+            <div id="enjoy-message-4">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </div>
+            <div id="enjoy-message-5">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </div>
+            <div id="enjoy-message-6">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<script src="jquery.min.js"></script>
+<script src="custom.js"></script>
+
+</body>
+</html>
